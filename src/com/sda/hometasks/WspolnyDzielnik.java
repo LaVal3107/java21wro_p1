@@ -12,20 +12,21 @@ public class WspolnyDzielnik {
         System.out.println("Insert number b:");
         b = scan.nextInt();
         scan.close();
-        System.out.println("gcd " + a +" and " + b +" = " + gcd(a, b));
+        System.out.println("gcd " + a + " and " + b + " = " + gcd(a, b));
     }
 
     public static int gcd(int a, int b) {
-        if (b == 0) return a;
+        if (b == 0 || a == b) return a;
+        if (a == 0) return b;
         while (a != b) {
             if (a > b) {
                 a = a - b;
-                return a;
             } else {
                 b = b - a;
-                return b;
             }
         }
         return a;
     }
+
 }
+
