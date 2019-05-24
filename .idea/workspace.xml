@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d0aa8b-645f-46fe-92a0-49b5c4489cd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sda/arraysoperation/ArrayMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sda/arraysoperation/TaskArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/hometasks/GratestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/hometasks/GratestCommonDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/primenumber/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/primenumber/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/primenumber/PrimeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/primenumber/PrimeArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sda/primenumber/PrimeSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/primenumber/PrimeSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sda/arraysoperation/TaskArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sda/arraysoperation/TaskArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,20 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sda/arraysoperation/TaskArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="214">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sda/arraysoperation/ArrayMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -309,12 +304,12 @@
       <updated>1558250839366</updated>
       <workItem from="1558250875589" duration="22866000" />
       <workItem from="1558561055478" duration="2340000" />
-      <workItem from="1558603745825" duration="10319000" />
+      <workItem from="1558603745825" duration="14329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35525000" />
+    <option name="totallyTimeSpent" value="39535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,7 +324,7 @@
     <frame x="477" y="0" width="872" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29802954" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29802954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,15 +334,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3253833" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26064736" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50596255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3560477" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879046" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,17 +459,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/arraysoperation/TaskArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sda/arraysoperation/ArrayMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sda/arraysoperation/ArrayMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sda/arraysoperation/TaskArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="214">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
