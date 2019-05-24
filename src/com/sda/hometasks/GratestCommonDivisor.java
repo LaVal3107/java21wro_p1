@@ -5,7 +5,7 @@ public class GratestCommonDivisor {
     // Алгоритм Евклида. Наибольший общий делитель
 
         public static void main(String[] args) {
-            System.out.println(gcd(30000, 1701));
+            System.out.println(gcd(12, 64));
         }
 
         public static int gcd(int a, int b) {

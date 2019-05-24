@@ -1,6 +1,5 @@
 package com.sda.primenumber;
 
-import java.util.Scanner;
 
 public class PrimeSelector {
     public boolean isPrime(int n) {
@@ -13,5 +12,6 @@ public class PrimeSelector {
         return true;
 
     }
-
 }
+
+

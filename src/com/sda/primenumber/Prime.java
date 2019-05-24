@@ -8,7 +8,13 @@ public class Prime {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         PrimeSelector primeSelector = new PrimeSelector();
+        PrimeArray primeArr = new PrimeArray();
+
         System.out.println(primeSelector.isPrime(number));
+        primeArr.primeArray(number);
         scanner.close();
+
+
     }
+
 }
