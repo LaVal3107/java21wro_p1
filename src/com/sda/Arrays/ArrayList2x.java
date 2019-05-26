@@ -1,14 +1,14 @@
 package com.sda.Arrays;
 
-public class ArrayList1<T> implements IList<T>{
+public class ArrayList2x<T> implements IList<T> {
     private T[] array;
-    private int arraySizeIncrValue = 1;
+    private final int arraySizeMultipler = 2;
     private int size;
 
-    public ArrayList1(){
-        array = (T[]) new Object[arraySizeIncrValue];
-
+    public ArrayList2x(){
+        array = (T[]) new Object[arraySizeMultipler];
     }
+
     @Override
     public boolean isEmpty() {
         return size == 0 ? true : false;
@@ -26,7 +26,7 @@ public class ArrayList1<T> implements IList<T>{
             ++size;
             return;
         }
-        int newArraySize = array.length + arraySizeIncrValue;
+        int newArraySize = array.length * arraySizeMultipler;
         T[] tmp = (T[]) new Object[newArraySize];
         for (int i = 0; i < array.length; i++)
             tmp[i] = array[i];
@@ -40,7 +40,7 @@ public class ArrayList1<T> implements IList<T>{
         if (index >size)
             throw new IndexOutOfBoundsException();
         int newArraySize = array.length > size ?
-                array.length : array.length + arraySizeIncrValue;
+                array.length : array.length * arraySizeMultipler;
 
         T[] tmp = (T[]) new Object[newArraySize];
         int i;
@@ -63,15 +63,16 @@ public class ArrayList1<T> implements IList<T>{
 
     @Override
     public void remove(int index) {
-        if (index >= size)
+        if (index > size)
             throw new IndexOutOfBoundsException();
         T[] tmp = (T[]) new Object[array.length];
         for (int i = 0; i < index; i++)
             tmp[i] = array[i];
-        for (int i = index + 1; i < array.length ; i++)
+        for (int i = index + 1; i <array.length ; i++)
             tmp[i-1] = array[i];
         array = tmp;
-        --size;
+        size--;
     }
+
 
 }
